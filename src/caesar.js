@@ -11,7 +11,6 @@ const caesarModule = (function () {
       return false;
     }
     let code = '';
-    // const alphabet = 'abcdefghijklmnopqrstuvwxyz';
     let lower = input.toLowerCase();
 
     if (encode === true) {
