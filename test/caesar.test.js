@@ -28,8 +28,8 @@ describe("caesar", () => {
     });
 });
 
-// TEST FOR WHEN ENCODE=TRUE 
 
+// TEST FOR WHEN ENCODE=TRUE 
 describe("caesar", () => {
     it('should conserve spaces when present in input', () => {
 
@@ -57,8 +57,8 @@ describe("caesar", () => {
     });
 });
 
-// TESTS FOR WHEN ENCODE=FALSE 
 
+// TESTS FOR WHEN ENCODE=FALSE 
 describe("caesar", () => {
     it('should conserve spaces when present in input', () => {
 

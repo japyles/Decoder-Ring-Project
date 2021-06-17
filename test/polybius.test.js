@@ -236,6 +236,15 @@ describe("polybius", () => {
     });
 });
 
+describe("polybius", () => {
+    it("should return '3211535345 2142244432411145 2445113333' ", () => {
+    
+        const expected = '3211535345 2142244432411145 2445113333';
+        const actual = polybius('Happy Birthday, Ryann!');
+        expect(actual).to.equal(expected);
+    });
+});
+
 
 // IF ENCODE = FALSE
 describe("polybius", () => {
@@ -477,6 +486,15 @@ describe("polybius", () => {
     
         const expected = 'z';
         const actual = polybius(55, false);
+        expect(actual).to.equal(expected);
+    });
+});
+
+describe("polybius", () => {
+    it("should return 'Happy Birthday, Ryann!' ", () => {
+    
+        const expected = 'Happy Birthday, Ryann!';
+        const actual = polybius('3211535345 2142244432411145 2445113333', false);
         expect(actual).to.equal(expected);
     });
 });
