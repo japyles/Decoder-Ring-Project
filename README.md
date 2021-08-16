@@ -39,7 +39,7 @@ npm run test
 
 ## Technology
 ### Built With:
-* HTML and JavaScript
+* JavaScript
 
 ## Show your support
 
