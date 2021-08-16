@@ -12,7 +12,9 @@
 > This project allows you to encode and decode text with a variety of different ciphers.
 
 ![Alt text](/src/assests/CaesarShift.png?raw=true)
+
 ![Alt text](/src/assests/PolybiusSquare.png?raw=true)
+
 ![Alt text](/src/assests/SubstitutionCipher.png?raw=true)
 
 ## Install
